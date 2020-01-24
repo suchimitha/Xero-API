@@ -1,10 +1,10 @@
 {
-  "name": "just-the-docs",
+  "name": "Xero-API",
   "version": "0.2.7",
   "description": "A modern Jekyll theme for documentation",
-  "repository": "pmarsceill/just-the-docs",
+  "repository": "pmarsceill/Xero-API",
   "license": "MIT",
-  "bugs": "https://suchimitha.github.io/just-the-docs/issues",
+  "bugs": "https://suchimitha.github.io/Xero-API/issues",
   "devDependencies": {
     "stylelint": "^10.0.1",
     "stylelint-config-primer": "^8.0.0",
