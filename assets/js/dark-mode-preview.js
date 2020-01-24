@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
   const toggleDarkMode = document.querySelector('.js-toggle-dark-mode')
   const cssFile = document.querySelector('[rel="stylesheet"]')
   const originalCssRef = cssFile.getAttribute('href')
-  const darkModeCssRef = originalCssRef.replace('Xero-API.css', 'dark-mode-preview.css')
+  const darkModeCssRef = originalCssRef.replace('just-the-docs.css', 'dark-mode-preview.css')
   const buttonCopy = ['Return to the light side', 'Preview dark color scheme']
   const updateButtonText = function(toggleDarkMode) {
     toggleDarkMode.textContent === buttonCopy[0] ?
