@@ -11,8 +11,8 @@ nav_order: 1
 
 
 To create an Invoice, pass the values to Invoice wrapper and assign it to request.xeroInvoice and then call the method BreadwinnerAPI.call(). Here customer ClientId (Xero Contact Id) is required.
-<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script>
 function copyToClipboard(element) {
   var $temp = $("<input>");
