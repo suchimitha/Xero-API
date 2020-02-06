@@ -15,9 +15,7 @@ To create an Invoice, pass the values to Invoice wrapper and assign it to reques
     <script src="_includes/js/clipboard.min.js"></script>
 
 
-<button class="btn" data-clipboard-target="#code">
-    click me
-</button>
+
 
 ## Sample Code
 ```scss
@@ -51,5 +49,13 @@ try{
 	System.debug('Exception occurred while creating customers in Xero.'+ex.getStackTraceString());
 }
 </pre>
+<p id="code2"> testing clip</p>
+<button class="btn" data-clipboard-target="#code">
+    click me
+</button>
+
+<button class="btn2" data-clipboard-target="#code2">
+    click me2
+</button>
 ```
 
