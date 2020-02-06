@@ -50,6 +50,8 @@ try{
 }
 </pre>
 <p id="code2"> testing clip</p>
+
+```
 <button class="btn" data-clipboard-target="#code">
     click me
 </button>
@@ -57,5 +59,5 @@ try{
 <button class="btn2" data-clipboard-target="#code2">
     click me2
 </button>
-```
+
 
