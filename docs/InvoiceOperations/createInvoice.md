@@ -8,24 +8,57 @@ nav_order: 1
 # Create Invoice
 
 ## Sample Code
+```javascript
+/* Global scope: this code is executed once */
+const redis = require('redis');
+
+const host = <HOSTNAME>;
+const port = <PORT>;
+const password = <PASSWORD>;
+
+...
+```
+{: #code-example-1}
+
+{% if page.content contains "code" %}
+<script>
+<!-- clipboard.js code -->
+</script>
+{% endif %}
+
+
+var allCodeBlocksElements = $( "code" );
+
+allCodeBlocksElements.each(function(i) {
+ 	// add different id for each code block
+
+	// target	
+  var currentId = "codeblock" + (i + 1);
+  $(this).attr('id', currentId);
+     
+  //trigger
+  var clipButton = '<button class="btn" data-clipboard-target="#' + currentId + '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
+     $(this).after(clipButton);
+  });
+ 
+  new Clipboard('.btn');
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+
+
+<code>print("Club Nacional de Football")</code>
+<br>
+<code>print("is a sports institution")</code>
+<br>
+<code>print("from Uruguay")</code>
+
 
 
 To create an Invoice, pass the values to Invoice wrapper and assign it to request.xeroInvoice and then call the method BreadwinnerAPI.call(). Here customer ClientId (Xero Contact Id) is required.
-<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script>
-function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
-</script>
 
-
-<button onclick="copyToClipboard('#code')">Copy Snippet</button>
 ```scss
 <pre id="code">
 try{
