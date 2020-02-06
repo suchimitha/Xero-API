@@ -9,11 +9,11 @@ permalink: docs/CustomerOperations
 # Contact Operations
 
 
-The following is required to create or update a contact
+The following parameters are required to create or update a contact
 
 | Field  | Type                          | Description |
 |:----------|:-------------------------------------|
-| Name *    | String | Full name of contact/organisation (max length = 255), Requried  |
+| Name *    | String | Full name of contact/organisation (max length = 255), Required  |
 | FirstName | String | First name of contact person (max length = 255)                 |
 | LastName  | String | Last name of contact person (max length = 255)              |
 | EmailAddress  | String | Email address of contact person (umlauts not supported) (max length = 255)             |

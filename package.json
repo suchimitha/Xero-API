@@ -2,9 +2,9 @@
   "name": "just-the-docs",
   "version": "0.2.7",
   "description": "A modern Jekyll theme for documentation",
-  "repository": "pmarsceill/Xero-API",
+  "repository": "pmarsceill/Breadwinner-for-Xero-API-Docs",
   "license": "MIT",
-  "bugs": "https://suchimitha.github.io/Xero-API/issues",
+  "bugs": "https://breadwinner-app.github.io/Breadwinner-for-Xero-API-Docs/issues",
   "devDependencies": {
     "stylelint": "^10.0.1",
     "stylelint-config-primer": "^8.0.0",
